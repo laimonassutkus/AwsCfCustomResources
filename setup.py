@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='aws_cf_custom_resources',
-    version='1.0.1',
+    version='1.0.2',
     license='GNU GENERAL PUBLIC LICENSE Version 3',
     packages=find_packages(),
     description='Container library which contains various custom resources for AWS CloudFormation.',

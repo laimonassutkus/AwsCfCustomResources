@@ -11,8 +11,7 @@ class S3NotificationService(AbstractCustomService):
 
         self.src = os.path.join(
             s3_notification_root,
-            'package',
-            's3_notification'
+            'package'
         )
 
         self.lambda_handler = 'index.handler'

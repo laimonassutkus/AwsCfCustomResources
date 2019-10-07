@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='aws_cf_custom_resources',
-    version='1.0.0',
+    version='1.0.1',
     license='GNU GENERAL PUBLIC LICENSE Version 3',
     packages=find_packages(),
     description='Container library which contains various custom resources for AWS CloudFormation.',
@@ -17,7 +17,7 @@ setup(
     author='Laimonas Sutkus',
     author_email='laimonas.sutkus@gmail.com',
     keywords='AWS SDK CloudFormation Infrastructure Cloud CustomResource',
-    url='https://github.com/laimonassutkus/AwsCfSdk',
+    url='https://github.com/laimonassutkus/AwsCfCustomResources',
     classifiers=[
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.5',
